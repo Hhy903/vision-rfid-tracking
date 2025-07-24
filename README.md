@@ -18,6 +18,7 @@ ros2 run yolo_tracking vision_node
 # Launch RFID simulation node
 ros2 run yolo_tracking rfid_sim_node.py
 # Launch target node(an moving ambulance in gazebo)
+ros2 run yolo_tracking moving_ambulance_node 
 # Start fusion control node
 ros2 run yolo_tracking fusion_tracking_node
 ```

@@ -22,6 +22,6 @@ ros2 run yolo_tracking rfid_sim_node.py
 ros2 run yolo_tracking fusion_tracking_node
 ```
 ### 2.Real world
-same as the simulation but you don't need to use rfid_sim. Instead, launch **rfid_reader_node**. This node will use **python-mercuayapi** to read from the anthenna
+Same as the simulation but you don't need to use **rfid_sim**node. Instead, launch **rfid_reader_node**. This node will use **python-mercuayapi** to read from the anthenna
 
 Good luck!
